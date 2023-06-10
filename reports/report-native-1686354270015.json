@@ -1,0 +1,96 @@
+{
+  "memory_allocated": 7596408832,
+  "memory_in_use": 64438672,
+  "results": [
+    {
+      "name": "exception",
+      "min": 3000,
+      "max": 66700,
+      "average": 3648.7406666666666
+    },
+    {
+      "name": "io_test",
+      "min": 295101,
+      "max": 775900,
+      "average": 343864.02
+    },
+    {
+      "name": "reflection",
+      "min": 13599,
+      "max": 8201500,
+      "average": 31945.846666666668
+    },
+    {
+      "name": "get_static",
+      "min": 599,
+      "max": 16601,
+      "average": 732.722
+    },
+    {
+      "name": "invoke_special",
+      "min": 799,
+      "max": 437300,
+      "average": 1281.3936
+    },
+    {
+      "name": "subtraction",
+      "min": 599,
+      "max": 13701,
+      "average": 787.397
+    },
+    {
+      "name": "directory",
+      "min": 156500,
+      "max": 524700,
+      "average": 181595.06666666668
+    },
+    {
+      "name": "invoke_dynamic",
+      "min": 46601,
+      "max": 4857201,
+      "average": 71978.934
+    },
+    {
+      "name": "division",
+      "min": 699,
+      "max": 7800,
+      "average": 761.392
+    },
+    {
+      "name": "put_static",
+      "min": 599,
+      "max": 8701,
+      "average": 776.802
+    },
+    {
+      "name": "invoke_static",
+      "min": 899,
+      "max": 4347400,
+      "average": 6585.765
+    },
+    {
+      "name": "random",
+      "min": 799,
+      "max": 147900,
+      "average": 1056.7883333333334
+    },
+    {
+      "name": "array",
+      "min": 1201,
+      "max": 261501,
+      "average": 86631.1
+    },
+    {
+      "name": "multiplication",
+      "min": 699,
+      "max": 8700,
+      "average": 765.12
+    },
+    {
+      "name": "addition",
+      "min": 599,
+      "max": 6800,
+      "average": 774.109
+    }
+  ]
+}
