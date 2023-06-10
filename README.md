@@ -24,7 +24,7 @@ exactly how significant these native operations are on Java programs.
 ### Process
 
 The process behind measuring the performance impact isn't difficult. This
-program measures the following operations / actions:
+program measures the following operations and actions:
 
 - Addition
 - Basic array operations
