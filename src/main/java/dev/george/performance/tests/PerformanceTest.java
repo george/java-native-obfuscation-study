@@ -10,6 +10,10 @@ public abstract class PerformanceTest {
 
     public abstract String getTestName();
 
+    public void preTest() {}
+
+    public void cleanup() {}
+
     public long start(int iteration) {
         long nanoTime = System.nanoTime();
 

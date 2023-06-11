@@ -10,9 +10,13 @@ public class PerformanceResults {
     private final List<Long> durations = new ArrayList<>();
 
     public PerformanceResults(PerformanceTest test) {
+        test.preTest();
+
         for (int i = 0; i < test.getIterations(); i++) {
             durations.add(test.start(i));
         }
+
+        test.cleanup();
     }
 
     public long getMin() {

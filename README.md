@@ -31,6 +31,8 @@ program measures the following operations and actions:
 - Directory creation
 - Division
 - Exceptions
+- File Reading
+- File Writing
 - GETSTATIC operations
 - INVOKEDYNAMIC operations
 - INVOKESPECIAL operations
@@ -54,7 +56,7 @@ Finally, simply compare the numbers.
 ### Results
 
 Not surprisingly, bytecode level operations were exponentially faster
-an overwhelming majority of the time, though strangely, IO operations
+an overwhelming majority of the time, though strangely, certain IO operations
 over twice as fast (128%) natively.
 
 The results are as follows:
@@ -66,6 +68,8 @@ The results are as follows:
 | Directory Operations     | 128.973%         | Native    |
 | Division                 | 1,917.864%       | Standard  |
 | Exceptions               | 1,094.185%       | Standard  |
+| File Read                | 113.393%         | Standard  |
+| File Write               | 103.501%         | Standard  |
 | GETSTATIC Operations     | 1,213.116%       | Standard  |
 | INVOKEDYNAMIC Operations | 14,619.96%       | Standard  |
 | INVOKESPECIAL Operations | 297.307%         | Standard  |

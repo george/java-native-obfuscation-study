@@ -75,10 +75,22 @@
       "average": 1056.7883333333334
     },
     {
+      "name": "file_read",
+      "min": 132200,
+      "max": 1002800,
+      "average": 188183.59375
+    },
+    {
       "name": "array",
       "min": 1201,
       "max": 261501,
       "average": 86631.1
+    },
+    {
+      "name": "file_write",
+      "min": 235600,
+      "max": 797900,
+      "average": 305035.15625
     },
     {
       "name": "multiplication",

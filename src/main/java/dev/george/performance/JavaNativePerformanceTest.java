@@ -26,6 +26,8 @@ public class JavaNativePerformanceTest {
             new DirectoryTest(),
             new DivisionTest(),
             new ExceptionTest(),
+            new FileReadTest(),
+            new FileWriteTest(),
             new GetStaticTest(),
             new InvokeDynamicTest(),
             new InvokeSpecialTest(),
